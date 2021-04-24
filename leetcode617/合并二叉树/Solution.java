@@ -1,10 +1,6 @@
 package leetcode617.合并二叉树;
 
-/**
- * @author ：hkxia
- * @description：TODO
- * @date ：2021/4/20 09:32
- */
+
 
 import java.util.LinkedList;
 
