@@ -23,7 +23,7 @@ public class Solution {
 
     // dp 状态转移方程为 dp[i] 代表以 price[i] 为结尾的子数组的最大利润
 
-    //因此前 ii 日最大利润 dp[i] 等于前 i - 1 日最大利润 dp[i-1] 和第 i 日卖出的最大利润中的最大值
+    //因此前 i 日最大利润 dp[i] 等于前 i - 1 日最大利润 dp[i-1] 和第 i 日卖出的最大利润中的最大值
     // 状态转移方程 dp[i] = max{ dp[i-1], price[i] - min{price[0 : i]}}  dp[0] = 0
     // 时间复杂度O(n)
 
