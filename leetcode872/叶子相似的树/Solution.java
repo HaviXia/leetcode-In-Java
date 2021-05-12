@@ -89,7 +89,6 @@ public class Solution {
         左孩子为空时，那么右孩子一定不为空，则出发往右孩子寻找第一个叶子节点。
         当两棵树分别都找到叶子节点后，比较它们的值是否相等，如果不相等则返回false, 相等则继续取栈顶节点作为新的起始点。
     * */
-
     public boolean leafSimilar2(TreeNode root1, TreeNode root2) {
         Stack<TreeNode> stack1 = new Stack();
         Stack<TreeNode> stack2 = new Stack();
